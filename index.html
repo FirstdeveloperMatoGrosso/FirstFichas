@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Fichas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Gerenciamento de Fichas</h1>
+        </header>
+        
+        <main>
+            <section class="form-section">
+                <h2>Nova Ficha</h2>
+                <form id="fichaForm">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="data">Data:</label>
+                        <input type="date" id="data" name="data" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" name="descricao" rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit">Salvar Ficha</button>
+                </form>
+            </section>
+
+            <section class="list-section">
+                <h2>Fichas Cadastradas</h2>
+                <div id="listaFichas"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
