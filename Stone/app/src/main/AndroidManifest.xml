@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissoes necessarias para o pleno funcionamento do aplicativo e da SDK -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".sdkdemo.activities.MifareActivity"
+            android:label="Mifare" />
+        <activity
+            android:name=".sdkdemo.activities.DevicesActivity"
+            android:label="@string/title_activity_devices" />
+        <activity
+            android:name=".sdkdemo.activities.TransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.menu.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.TransactionListActivity"
+            android:label="@string/title_activity_transaction_list" />
+        <activity
+            android:name=".sdkdemo.activities.DisconnectPinpadActivity"
+            android:label="@string/title_activity_disconnect_pinpad" />
+        <activity
+            android:name=".sdkdemo.activities.novo_promotor.NovoPromotorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.novo_evento.NovoEventoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.carrinho.CarrinhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.ingressos.IngressosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.perfil.PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.menuProduto.MenuProdutoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.aberturaCaixa.AberturaCaixaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.pagamentoRealizado.PagamentoRealizadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.registro.RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.configuracoes.ConfiguracoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.menuFichas.MenuFichasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.menuFichasProduto.MenuFichasProdutoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.menuIngressos.MenuIngressosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.menuPrintType.MenuPrintTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.novoProduto.NovoProdutoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.impressao.ImpressaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.fluxoCaixa.FluxoCaixaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.novaCategoria.NovaCategoriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.senha.SenhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.qrCode.QrCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.estacionamento.EstacionamentoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sdkdemo.activities.ValidationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sdkdemo.activities.PosTransactionActivity"
+            android:label="@string/title_activity_transaction" />
+        <activity
+            android:name=".sdkdemo.activities.ManageStoneCodeActivity"
+            android:label="@string/title_activity_manage_stone_codes" />
+    </application>
+
+</manifest>

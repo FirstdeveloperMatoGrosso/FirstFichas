@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_4201" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fijek_4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="criarNovoEvento"
+                    android:text="Adicionar evento"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="criarNovoProduto"
+                    android:text="Adicionar produtos"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout7"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView47"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText7"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="fluxoCaixa"
+                    android:text="Fluxo de caixa"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout28"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView478"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText78"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="perfil"
+                    android:text="Perfil"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView44"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="totem"
+                    android:text="Vendas"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout5"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView45"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="configurar"
+                    android:text="Configurações"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout6"
+                android:visibility="gone"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView46"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="stoneCode"
+                    android:text="Código Stone"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/addPromotor"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView43"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="criarNovoPromotor"
+                    android:text="Adicionar promotor"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/impressao"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView431"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText31"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="impressao"
+                    android:text="Pulseiras Teste"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/estacionamento"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView49"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/btn_print_type" />
+
+                <TextView
+                    android:id="@+id/myImageViewText34"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:onClick="estacionamento"
+                    android:text="Estacionamento"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--        <Button-->
+<!--            android:id="@+id/testeImpressora"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:backgroundTint="#4B39EF"-->
+<!--            android:onClick="testeImpressora"-->
+<!--            android:text="Teste da impressão"-->
+<!--            android:textColor="#FFFFFF" />-->
+
+        <Button
+            android:id="@+id/sair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00000000"
+            android:onClick="sair"
+            android:text="Sair"
+            android:textColor="#4B39EF" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
