@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bc23ccf-5f83-45ee-b469-1b23b8ac6c0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/atualizar2.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/analysis_options.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/analysis_options.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/admin_dashboard.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/admin_dashboard.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/events_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/events_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/overview_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/overview_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/reports_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/reports_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/tenants_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/tenants_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/terminals_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/terminals_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/users_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/screens/users_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/services/reports_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/services/reports_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/admin_sidebar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/admin_sidebar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/chart_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/chart_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/data_table_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/data_table_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/summary_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/admin/widgets/summary_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/main_app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/main_app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/models/event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/models/event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/event_details_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/event_details_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/profile_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/wallet_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/screens/wallet_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/category_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/category_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/credential_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/credential_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/event_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/event_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/featured_carousel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/featured_carousel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/ticket_type_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app/widgets/ticket_type_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/app_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/app_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/auth_manager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/auth/auth_manager.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/auth_util.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/auth/auth_util.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/base_auth_user_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/auth/base_auth_user_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/anonymous_auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/apple_auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/auth_util.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/email_auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/firebase_auth_manager.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/firebase_user_provider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/github_auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/google_auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/auth/firebase_auth/jwt_token_auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/api_requests/api_calls.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/api_requests/api_calls.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/api_requests/api_manager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/api_requests/api_manager.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/backend.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/backend.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/firebase/firebase_config.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/carrinho_record.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/carrinho_record.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/categoria_record.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/categoria_record.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/events_record.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/events_record.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/index.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/produtos_record.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/produtos_record.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/structs/qrcode_struct.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/structs/qrcode_struct.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/todos_record.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/todos_record.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/util/firestore_util.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/util/firestore_util.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/util/schema_util.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/schema/util/schema_util.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/database/database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/database/database.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/database/tables/tbl_ingressos.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/database/tables/tbl_ingressos.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/database/tables/tbl_promotor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/database/tables/tbl_promotor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/supabase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/backend/supabase/supabase.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/carrinho/carrinho_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/carrinho/carrinho_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/carrinho/carrinho_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/carrinho/carrinho_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/client_dashboard.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/client_dashboard.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/credentials_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/credentials_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/dashboard_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/dashboard_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/products_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/products_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/reports_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/reports_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/settings_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/screens/settings_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/widgets/responsive_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/client_dashboard/widgets/responsive_layout.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/components/drop_dow_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/components/drop_dow_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/components/drop_dow_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/components/drop_dow_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/components/nav_bar_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/components/nav_bar_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/components/nav_bar_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/components/nav_bar_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/criarconta/criarconta_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/criarconta/criarconta_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/event_details_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/event_details_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/my_tickets_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/my_tickets_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/pix_payment_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/screens/pix_payment_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/widgets/event_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/widgets/event_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/widgets/featured_event_carousel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/widgets/featured_event_carousel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/widgets/responsive_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/customer_app/widgets/responsive_layout.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/dadospessoais/dadospessoais_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/dadospessoais/dadospessoais_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_animations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_animations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_count_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_count_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_drop_down.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_drop_down.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_expanded_image_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_expanded_image_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_icon_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_icon_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_timer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_timer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_util.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_util.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_widgets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/flutter_flow_widgets.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/nav/nav.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/nav/nav.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/nav/serialization_util.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/flutter_flow/nav/serialization_util.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/gerarpdf/gerarpdf_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/gerarpdf/gerarpdf_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/index.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/ingressodigital/ingressodigital_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/ingressodigital/ingressodigital_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/ingressos/ingressos_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/ingressos/ingressos_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/ingressos/ingressos_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/ingressos/ingressos_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/login/login_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/login/login_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/login/login_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/login/login_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/pag_entrar/pag_entrar_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/pag_entrar/pag_entrar_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/pag_entrar/pag_entrar_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/pag_entrar/pag_entrar_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/pagamentopix/pagamentopix_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/pagamentopix/pagamentopix_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/pagamentorealizado/pagamentorealizado_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/pagamentorealizado/pagamentorealizado_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/perfil/perfil_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/perfil/perfil_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/perfil/perfil_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/perfil/perfil_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/senhadeseguranca/senhadeseguranca_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/senhadeseguranca/senhadeseguranca_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/senhadeseguranca/senhadeseguranca_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/senhadeseguranca/senhadeseguranca_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/lib/test_supabase/test_events_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/lib/test_supabase/test_events_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First-Ingressos/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/First-Ingressos/test/widget_test.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2qopbKoEOhQfruSeWZwd6uxLMxJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/First-Ticket-Backup&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bc23ccf-5f83-45ee-b469-1b23b8ac6c0c" name="Changes" comment="" />
+      <created>1735338852319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735338852319</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

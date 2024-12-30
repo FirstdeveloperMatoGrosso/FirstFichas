@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_4201" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="25px"
+                android:onClick="voltar"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <Button
+                android:id="@+id/sair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#00000000"
+                android:text="Voltar"
+                android:onClick="voltar"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="-2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="40dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/qrcode_rodrigo"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Senha"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textColorLink="#FFFFFF" />
+
+                    <EditText
+                        android:id="@+id/senha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:hint="Digite sua senha"
+                        android:inputType="textPassword"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="171dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:backgroundTint="#04A24C"
+                        android:onClick="entrar"
+                        android:text="Seguir"
+                        android:textColorLink="#04A24C" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1000dp"
+            android:background="#FFFFFF"
+            android:onClick="imprimir"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="EVENTO"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="OLDPARR GELO ENERGÉTICO 2"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:paddingLeft="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/qrcode_rodrigo" />
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="350,00"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:text="VÁLIDO ATÉ 17/03/2024"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ride Eventos"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="__________________ 1/1 __________________"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="17/03/24 10:49:04 1 20:52"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Fulano da Silva"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="FORMA DE PAGAMENTO - Crédito"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="ID DE PAGAMENTO"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="00524513205201"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="First tickets (66)99225-8469"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="WhatsApp (66)99260-1325"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="0000dp"
+            android:background="#FFFFFF"
+            android:onClick="imprimir"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:src="@drawable/fijek_4" />
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"
+                android:text="OLDPARR GELO ENERGÉTICO 2"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t125"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:text="DESCRIÇÃO"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t13"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:text="VÁLIDO ATÉ 17/03/2024"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t33"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:textColor="#000000"
+                android:text="CLASSIFICAÇÃO - 10 anos"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t330"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:textColor="#000000"
+                android:text="CAMAROTE"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t34"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:text="CAMAROTE"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:src="@drawable/qrcode_rodrigo" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:text="VALOR 350,00"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:text="TAXA 5,00"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ride Eventos"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t14"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Endereço"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t45"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="FORMA DE PAGAMENTO: Cartão"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t108"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="__________________ 1/1 __________________"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="17/03/24 10:49:04 1 20:52"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="First tickets (66)99225-8469"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="WhatsApp (66)99260-1325"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

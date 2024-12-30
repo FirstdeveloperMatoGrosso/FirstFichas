@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 34
+    namespace "br.com.firstingressos.dashboard"
+
+    defaultConfig {
+        applicationId "br.com.firstingressos.dashboard"
+        minSdkVersion 22
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+        
+        // Habilita o suporte a MultiDex
+        multiDexEnabled true
+        
+        // Configurações de segurança
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../../firstingressos.keystore")
+            storePassword "first123"
+            keyAlias "firstingressos"
+            keyPassword "first123"
+        }
+    }
+
+    buildTypes {
+        release {
+            // Habilita o ProGuard
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            
+            // Usa a configuração de assinatura
+            signingConfig signingConfigs.release
+            
+            // Desabilita logs em produção
+            buildConfigField "boolean", "ENABLE_LOGS", "false"
+            
+            // Habilita ofuscação de recursos
+            resValue "string", "app_name", "First Ingressos"
+        }
+        
+        debug {
+            // Mantém logs em debug
+            buildConfigField "boolean", "ENABLE_LOGS", "true"
+            
+            // Habilita StrictMode em debug
+            buildConfigField "boolean", "ENABLE_STRICT_MODE", "true"
+            
+            // Nome diferente para versão debug
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+        }
+    }
+
+    // Suporte ao Java 8
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    // Configurações de empacotamento
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+    // Habilita ViewBinding e buildConfig
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    
+    // AndroidX
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    
+    // Stone SDK
+    implementation "br.com.stone.sdk.android:debugmode:4.0.3"
+    
+    // Supabase
+    implementation 'io.supabase:supabase-android:1.4.0'
+    implementation 'io.supabase:postgrest-kt:1.4.0'
+    implementation 'io.supabase:realtime-kt:1.4.0'
+    implementation 'io.supabase:storage-kt:1.4.0'
+    implementation 'io.supabase:gotrue-kt:1.4.0'
+    
+    // Segurança
+    implementation 'androidx.security:security-crypto:1.1.0-alpha06'
+    implementation 'com.google.crypto.tink:tink-android:1.7.0'
+    
+    // Permissões
+    implementation 'com.github.permissions-dispatcher:permissionsdispatcher:4.8.0'
+    annotationProcessor 'com.github.permissions-dispatcher:permissionsdispatcher-processor:4.8.0'
+    
+    // Debug
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.12'
+}

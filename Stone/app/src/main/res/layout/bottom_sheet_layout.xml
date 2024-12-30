@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/containerOpcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_margin="3sp"
+            android:id="@+id/ingressos"
+            android:text="Ingressos"
+            android:backgroundTint="#96c3e2"
+            android:textSize="16sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_margin="3sp"
+            android:id="@+id/fichas"
+            android:text="Fichas"
+            android:backgroundTint="#96c3e2"
+            android:textSize="16sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_margin="3sp"
+            android:id="@+id/dismiss"
+            android:text="Cancelar"
+            android:backgroundTint="#96c3e2"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Senha"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="Digite sua senha"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnConfirmarSenha"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#04A24C"
+                android:text="Confirmar"
+                android:textColorLink="#04A24C" />
+
+            <Button
+                android:id="@+id/btnVoltarSenha"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#004B39EF"
+                android:text="Voltar"
+                android:textColor="#04A24C"
+                android:textColorHighlight="#04A24C"
+                android:textColorHint="#04A24C"
+                android:textColorLink="#04A24C" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
